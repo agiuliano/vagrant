@@ -1,0 +1,11 @@
+[user]
+    name = __NAME__
+    email = __EMAIL__
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[merge]
+    ff = false
+[color]
+    ui = true
+[core]
+    excludesfile = /home/vagrant/.gitignore
